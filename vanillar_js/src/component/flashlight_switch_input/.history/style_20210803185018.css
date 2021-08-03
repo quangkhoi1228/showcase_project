@@ -1,0 +1,15 @@
+.flashlight-switch-input{
+
+}
+
+.flashlight-switch-input__input{
+
+}
+
+.flashlight-switch-input__button{
+    border-left: none;
+}
+
+.flashlight-switch-input__button .icon{
+  transform: rotate(180deg);
+}

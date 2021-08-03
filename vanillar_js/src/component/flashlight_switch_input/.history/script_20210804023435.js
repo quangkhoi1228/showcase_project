@@ -1,0 +1,1 @@
+var flashlightSwitchInputList  = document.querySelectorAll('.flashlight-switch-input')
