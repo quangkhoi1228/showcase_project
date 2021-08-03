@@ -1,0 +1,43 @@
+.flashlight-switch-input {
+  position: relative;
+}
+
+.flashlight-switch-input__icon {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    padding: 0;
+    width: 2rem;
+  }
+
+  .flashlight-switch-input__icon >*{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #b3b3b3;
+    font-size: 0.75rem;
+  }
+
+.flashlight-switch-input__input {
+  border: 1px solid transparent;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  width: 100%;
+  background: #131212;
+}
+
+.flashlight-switch-input__button {
+  transform: rotate(180deg);
+  position: absolute;
+  right: 0;
+  padding: 0;
+  color: #b3b3b3;
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 2rem;
+}
+.flashlight-switch-input__button__icon {
+  transform: rotate(180deg);
+}
