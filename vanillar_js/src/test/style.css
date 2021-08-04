@@ -17,6 +17,7 @@
   border: 2px solid black;
   left: 0;
   top: 0;
+  outline: 0;
 }
 
 .animated-search-input__control {
@@ -44,6 +45,11 @@
 
 .animated-search-input.--width-animation {
   width: 13rem;
+}
+
+.animated-search-input.--width-animation .animated-search-input__input {
+  padding-left: 0.5rem;
+  padding-right: 2rem;
 }
 
 .animated-search-input.--width-animation .animated-search-input__control {
